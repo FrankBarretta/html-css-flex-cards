@@ -1,0 +1,56 @@
+* {
+    font-family: 'Fredoka', sans-serif;
+    margin: 1% 4%;
+}
+
+h1 {
+    color: #E53170;
+}
+
+a {
+    text-decoration: none;
+    color: #55CCF2;
+}
+
+a:active {
+    text-decoration: none;
+    color: #55CCF2;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #55CCF2;
+}
+
+.card {
+    background-color: #0F0E17;
+    color: white;
+    text-align: left;
+    height: 130px;
+    width: 400px;
+    margin: 1% 0;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+/*     margin: 0 10%; */
+}
+
+img {
+    height: 100%;
+}
+
